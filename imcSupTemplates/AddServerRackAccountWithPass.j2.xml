@@ -1,0 +1,39 @@
+<cuicOperationRequest>
+<operationType>RACK_ACCOUNT_CREATE</operationType>
+<payload>
+<![CDATA[
+<CIMCInfraAccount>
+<accountName>{{ name }}</accountName>
+
+<server>{{ server }}</server>
+
+<description></description>
+
+<credentialPolicy>false</credentialPolicy>
+
+   <!-- Set this value only when credentialPolicy not equals to false  -->
+<policy></policy>
+
+   <!-- Set this value only when credentialPolicy not equals to true  -->
+<username>{{ username }}</username>
+
+   <!-- Set this value only when credentialPolicy not equals to true  -->
+<password>{{ password }}</password>
+
+   <!-- Set this value only when credentialPolicy not equals to true  -->
+<protocol>https</protocol>
+
+   <!-- Set this value only when credentialPolicy not equals to true  -->
+<port>443</port>
+
+<rackGroup>Default Group</rackGroup>
+
+<contact></contact>
+
+<location></location>
+
+</CIMCInfraAccount>
+
+]]>
+</payload>
+</cuicOperationRequest>
